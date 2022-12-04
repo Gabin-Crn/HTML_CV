@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #889696, #d2d4c8 );
+ 
+    
+}
+
+.cv_container{
+    width: 700px;
+    background: #edede9;
+    padding: 2rem;
+    border-radius: 10px;
+    position: absolute;
+
+}
+
+.cv_container::before{
+    content:'';
+    position: absolute;
+    width: 700px;
+    background: rgba(237, 237, 233, 0.30);
+    padding: 2rem;
+    border-radius: 10px;
+    inset: 0;
+    transform: rotate(-5deg);
+    z-index: -1;
+
+}
+
+.header{
+    padding: 0;
+    height: 100px;
+    border-radius: 10px;
+    background: rgb(20, 33, 61);
+}
+
+.logo_positionning{
+    position: absolute;
+}
+
+.logo_positionning img{
+    height: 70px;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.info, #nom, #looking{
+    color : white;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#looking{
+    padding: 0;
+}
+
+.left_column{
+    height: auto;
+    float: left;
+    margin: 0;
+    width: 45%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.under_header{
+    width: 90%;
+    font-size: 10px;
+    background: #e1e5f2;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.card-form{
+    display: flex;
+    padding-top: 5px;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.card-form .form-item{
+    position: relative;
+}
+
+.card-form .form-item .form-item-icon{
+    position: absolute;
+    
+}
+
+#num, #mail, #home, #car, #linkedin
+{
+    padding-top: 5px;
+    padding-left: 40px; 
+}
+
+.technicals_skills{
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: auto;
+}
+
+
+#NAME{
+    font-size: 17px;
+    letter-spacing: 4px;
+    color: #284b63;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+
+
+.technical_description{
+    font-size: 11px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.technical_description li{
+    list-style-type: none;;
+}
+
+.Soft_skills{
+    padding-top: 20px;
+    position: relative;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: auto;
+}
+
+.both_container{
+    column-count: 2;
+    column-rule: 2px solid #284b63;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+}
+
+.soft_description{
+    list-style-type: none;
+}
+.soft_description1{
+    list-style-type: none;
+    padding-left: 7px;
+}
+
+.Education{
+
+    font-size: 11px;
+    padding-top: 20px;
+    padding-left: 5px;
+    height: auto;
+}
+
+.engineering{
+    padding-top: 10px;
+    font-size: 11px;
+    margin: 5px 5px;
+    
+}
+
+#educ{
+    text-decoration: underline;
+    font-family: 'Poppins1', sans-serif;
+    color: #354f52;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#school{
+    padding-top: 2px;
+}
+
+#date{
+    padding-top: 2px;
+}
+
+.Undergraduate{
+    font-size: 11px;
+    margin: 8px 5px;
+    height: auto;
+    width: 80%;
+    
+}
+
+.Baccalaureate{
+    font-size: 11px;
+    margin: 8px 5px;
+    height: auto;
+    
+}
+
+.Languages{
+    font-size: 11px;
+    padding-top: 20px;
+    padding-left: 5px;
+    height: auto;
+}
+
+.columns_container{
+    column-count: 2;
+    column-rule: 2px solid #284b63;;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 50%;
+
+}
+
+.left{
+    list-style-type: none;
+    
+}
+
+.right{
+    list-style-type: none;  
+    padding-left: 5px;
+}
+
+#Language{
+    color: #002642;
+    font-family: 'Poppins1', sans-serif;
+}
+
+
+.bar_separate{
+    position: absolute;
+    background: #14213d;
+    height: 60%;
+    width: 3px;
+    margin-top: 220px;
+    border-radius: 10px;
+    left: 42%;
+}
+.right_container{
+    float: right;
+    width: 50%;
+  
+}
+
+.about_me{
+    position: relative;
+    font-size: 11px;
+    padding-top: 10px;
+    left: -20px ;
+}
+
+
+#NAME2{
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-family: 'Rubik', sans-serif;
+    color: #284b63;
+    padding-top: 15px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.left_box{
+    font-family: 'Jura';
+    font-size: 12px;
+    font-style: italic;
+    color: #002642 ;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.right_box{
+    position: relative;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.Experience{
+    position: relative;
+    font-size: 11px;
+    height: auto;
+    padding-top: 30px;
+    left: -20px ;
+}
+
+#title{
+    padding-top: 9px;
+    padding-bottom: 6px;
+    color: #22223b;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+}
+
+#brand{
+    color: rgb(248, 112, 96);
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+#place{
+    padding-top: 10px;
+    color: #4f5d75;
+}
+
+#sentences{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.mission{
+    padding-left: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+.mission li::before {
+    content: "•"; 
+    width: 2rem;
+    color: black;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+
+#NAME_project{
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-family: 'Rubik', sans-serif;
+    color: #284b63;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+
+.Misc_Container{
+    column-count: 2;
+    column-rule: 2px solid #284b63;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 200px;
+    
+}
+
+.Misc_right{
+    padding-left: 10px;
+}
+
+
+#prog{
+    color: rgb(248, 112, 96);
+    font-family: 'Quicksand', sans-serif;
+}
